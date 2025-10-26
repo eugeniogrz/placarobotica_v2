@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>6.1. Proyecto final | Nuestra placa robótica se comunica con el mundo </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Varios" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<link rel="stylesheet" type="text/css" href="exe-rubrics.css" />
+<script type="text/javascript" src="exe-rubrics.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-137"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Nuestra placa robótica se comunica con el mundo</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Nuestra placa robótica se comunica con el mundo</a></li>
+   <li><a href="1_qu_vamos_a_hacer.html" class="no-ch">1. ¿Qué vamos a hacer?</a></li>
+   <li><a href="2_activamos_nuestros_circuitos.html" class="no-ch">2. Activamos nuestros circuitos</a></li>
+   <li><a href="3_nuestra_placa_robtica.html" class="daddy">3. Nuestra placa robótica</a>
+   <ul class="other-section">
+      <li><a href="31_exploramos_la_placa.html" class="no-ch">3.1. Exploramos la placa</a></li>
+      <li><a href="32_el_cerebro_de_nuestro_robot.html" class="daddy">3.2. El cerebro de nuestro robot</a>
+      <ul class="other-section">
+         <li><a href="321_qu_has_aprendido_sobre_los_microcontroladores.html" class="no-ch">3.2.1. Qué has aprendido sobre los microcontroladores</a></li>
+      </ul>
+      </li>
+      <li><a href="33_entradas_procesamiento_y_salidas.html" class="no-ch">3.3. Entradas, procesamiento y salidas</a></li>
+   </ul>
+   </li>
+   <li><a href="4_el_entorno_de_programacin.html" class="daddy">4. El entorno de programación</a>
+   <ul class="other-section">
+      <li><a href="41_hola_mundo.html" class="no-ch">4.1. ¡Hola mundo!</a></li>
+   </ul>
+   </li>
+   <li><a href="5_nos_ponemos_manos_a_la_obra.html" class="no-ch">5. Nos ponemos manos a la obra</a></li>
+   <li class="current-page-parent"><a href="6_aprendemos_ms_sobre_nuestra_placa_robtica.html" class="current-page-parent daddy">6. Aprendemos más sobre nuestra placa robótica</a>
+   <ul>
+      <li id="active"><a href="61_proyecto_final.html" class="active no-ch">6.1. Proyecto final</a></li>
+   </ul>
+   </li>
+   <li><a href="7_presentamos_nuestro_trabajo.html" class="no-ch">7. Presentamos nuestro trabajo</a></li>
+   <li><a href="8_sacamos_conclusiones.html" class="no-ch">8. Sacamos conclusiones</a></li>
+   <li><a href="crditos.html" class="no-ch">Créditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="6_aprendemos_ms_sobre_nuestra_placa_robtica.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>13</strong> de <strong>16</strong></span> <span class="sep">| </span><a href="7_presentamos_nuestro_trabajo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">6.1. Proyecto final</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_tareagrupal" id="id636">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_tareagrupal.png)"><h1 class="iDeviceTitle">1. Proyecto por parejas: Control del robot Maqueen por radio</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta636_636_2" class="block iDevice_content">
+<div class="exe-text"><p>Por parejas, debéis diseñar dos programas para controlar el robot Maqueen vía radio, cumpliendo lo siguiente:</p>
+<p><strong>Programa micro:bit 1 (emisor)</strong>:</p>
+<p>1) Programa que envíe al Maqueen las órdenes "<strong>adelante</strong>", "<strong>atras</strong>", "<strong>izquierda</strong>" o "<strong>derecha</strong>", según se <strong>incline la placa</strong> hacia adelante, hacia atrás, hacia la izquierda o hacia la derecha, respectivamente.</p>
+<p>2) Al pulsar el <strong>botón A</strong> se envía la orden "<strong>distancia</strong>".</p>
+<p>3) Al pulsar el <strong>botón B</strong> se envía la orden "<strong>obstaculo</strong>".</p>
+<p>4) Cuando se pulse el <strong>logo</strong> se envía la orden "<strong>ambulancia</strong>".</p>
+<p></p>
+<p><strong>Programa micro:bit 2 (receptor en el Maqueen)</strong>:</p>
+<p>1) Programa en el Maqueen que controle su movimiento en función de la orden recibida vía radio ( "<strong>adelante</strong>", "<strong>atras</strong>", "<strong>izquierda</strong>" o "<strong>derecha</strong>") (moverse hacia adelante, hacia atrás, hacia la izquierda o hacia la derecha).</p>
+<p>2) Al recibir la orden "<strong>distancia</strong>", el Maqueen muestra la distancia a la que ponemos la mano delante del sensor de ultrasonidos como se hizo en la práctica anterior 02_Sensor de distancia.</p>
+<p>3) Al recibir la orden "<strong>obstaculo</strong>", el Maqueen debe seguir nuestra mano, cambiando los colores como se hizo en la práctica anterior 03_Luces de colores.</p>
+<p>4) Al recibir la orden "<strong>ambulancia</strong>" se debe accionar el efecto ambulancia como se vio en la práctica anterior 04_LEDs frontales y sonido.</p>
+<p></p>
+<p><strong>NOTA 1</strong>: No utilices <strong>acentos</strong> en las órdenes que se transmiten vía radio, pues se pueden producir errores.</p>
+<p><strong>NOTA 2</strong>: Una vez comprobado el correcto funcionamiento de ambos programas, cada alumno deberá preparar una <strong>Memoria</strong> sobre el trabajo realizado, que deberá exponer en clase al resto de compañeros. El contenido de dicha memoria se recoge en el siguiente apartado 7. Presentación de nuestro trabajo, y a continuación se muestran las <strong>rúbricas</strong> con las que se evaluarán tanto la Memoria como la exposición del trabajo.</p>
+<p></p>
+<p></p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper RubricIdevice em_iDevice em_iDevice_escribe" id="id637">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_escribe.png)"><h1 class="iDeviceTitle">2. Rúbrica para la Memoria</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta637_637_2" class="block iDevice_content">
+<table class='exe-table'><caption>Rúbrica para evaluar un informe escrito y gráfico</caption><thead><tr><th>&nbsp;</th><th>4 Excelente</th><th>3 Satisfactorio</th><th>2 Mejorable</th><th>1 Insuficiente</th></tr></thead><tbody><tr><th>Título</th><td>El título es muy creativo y sugerente y  resume muy bien la idea principal del tema. <span>(4)</span></td><td>El título es creativo y sugerente y resume bien la idea principal del tema. <span>(3)</span></td><td>El título resume la idea principal del tema. <span>(2)</span></td><td>El título no resume la idea principal del tema. <span>(1)</span></td></tr><tr><th>Primer Borrador</th><td>Un borrador detallado es presentado ordenadamente que incluye toda la información requerida. <span>(4)</span></td><td>El borrador incluye toda la información requerida y es legible. <span>(3)</span></td><td>El borrador incluye la mayoría de la información requerida y es legible. <span>(2)</span></td><td>Al borrador le falta información requerida y es difícil de leer. <span>(1)</span></td></tr><tr><th>Construcción de Párrafos</th><td>Todos los párrafos incluyen una introducción, explicaciones o detalles y una conclusión. <span>(4)</span></td><td>La mayor parte de los párrafos incluye una introducción, explicaciones o detalles y una conclusión. <span>(3)</span></td><td>Los párrafos incluyen información relacionada pero no fueron generalmente bien organizados. <span>(2)</span></td><td>La estructura del párrafo no estaba clara y las oraciones no estaban generalmente relacionadas. <span>(1)</span></td></tr><tr><th>Redacción</th><td>No hay errores de gramática, ortografía o puntuación. <span>(4)</span></td><td>Casi no hay errores de gramática, ortografía o puntuación. <span>(3)</span></td><td>Unos pocos errores de gramática, ortografía o puntuación. <span>(2)</span></td><td>Muchos errores de gramática, ortografía o puntuación. <span>(1)</span></td></tr><tr><th>Calidad de Información</th><td>La información está claramente relacionada con el tema principal y proporciona varias ideas secundarias y/o ejemplos. <span>(4)</span></td><td>La información da respuesta a las preguntas principales y 1-2 ideas secundarias y/o ejemplos. <span>(3)</span></td><td>La información da respuesta a las preguntas principales, pero no da detalles y/o ejemplos. <span>(2)</span></td><td>La información tiene poco o nada que ver con las preguntas planteadas. <span>(1)</span></td></tr><tr><th>Organización</th><td>La información está muy bien organizada con párrafos bien redactados y con subtítulos. <span>(4)</span></td><td>La información está organizada con párrafos bien redactados. <span>(3)</span></td><td>La información está organizada, pero los párrafos no están bien redactados. <span>(2)</span></td><td>La información proporcionada no parece estar organizada. <span>(1)</span></td></tr><tr><th>Imágenes y vídeos</th><td>Las imágenes y vídeos aportados son muy apropiados para  la información escrita. <span>(4)</span></td><td>Las imágenes y vídeos son apropiados para la información escrita. <span>(3)</span></td><td>Algunas imágenes y vídeos no son apropiados para la información escrita. <span>(2)</span></td><td>La mayoría de las veces, las imágenes y los vídeos no son apropiados para la información escrita. <span>(1)</span></td></tr></tbody></table><p class="exe-rubric-authorship"><a href="http://cedec.intef.es/" target="_blank" class="author" rel="noopener">CEDEC</a>. <span class="title"><em>Rúbrica para evaluar un informe escrito y gráfico</em></span> <span class="license">(<a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons CC-BY-SA">CC BY-SA</a>)</span></p><ul class="exe-rubric-strings"><li class="activity">Actividad</li><li class="name">Nombre</li><li class="date">Fecha</li><li class="score">Puntuación</li><li class="notes">Notas</li><li class="reset">Reiniciar</li><li class="print">Imprimir</li><li class="apply">Aplicar</li><li class="newWindow">Ventana nueva</li></ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper RubricIdevice em_iDevice em_iDevice_escribe" id="id638">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_escribe.png)"><h1 class="iDeviceTitle">3. Rúbrica para la exposición del trabajo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta638_638_2" class="block iDevice_content">
+<table class='exe-table'><caption>Rúbrica para evaluar la exposición oral</caption><thead><tr><th>&nbsp;</th><th>4 Excelente</th><th>3 Satisfactorio</th><th>2 Mejorable</th><th>1 Insuficiente</th></tr></thead><tbody><tr><th>Habla</th><td>Habla despacio y con gran  claridad. <span>(4)</span></td><td>La mayoría del tiempo, habla despacio y con claridad. <span>(3)</span></td><td>Unas veces habla despacio y con claridad, pero otras se acelera y se le entiende mal. <span>(2)</span></td><td>Habla rápido o se detiene demasiado a la hora de hablar. Además su pronunciación no es buena. <span>(1)</span></td></tr><tr><th>Vocabulario</th><td>Usa vocabulario apropiado para la audiencia. Aumenta el vocabulario de la audiencia definiendo las palabras que podrían ser nuevas para ésta. <span>(4)</span></td><td>Usa vocabulario apropiado para la audiencia. Incluye 1-2 palabras que podrían ser nuevas para la mayor parte de la audiencia, pero no las define. <span>(3)</span></td><td>Usa vocabulario apropiado para la audiencia. No incluye vocabulario que podría ser nuevo para la audiencia. <span>(2)</span></td><td>Usa varias (5 o más) palabras o frases que no son entendidas por la audiencia. <span>(1)</span></td></tr><tr><th>Volumen</th><td>El volumen es lo suficientemente alto para ser escuchado por todos los miembros de la audiencia a través de toda la presentación. <span>(4)</span></td><td>El volumen es lo suficientemente alto para ser escuchado por todos los miembros de la audiencia al menos 90% del tiempo. <span>(3)</span></td><td>El volumen es lo suficientemente alto para ser escuchado por todos los miembros de la audiencia al menos el 80% del tiempo. <span>(2)</span></td><td>El volumen con frecuencia es muy débil para ser escuchado por todos los miembros de la audiencia. <span>(1)</span></td></tr><tr><th>Comprensión</th><td>El estudiante puede con precisión contestar casi todas las preguntas planteadas sobre el tema por sus compañeros de clase. <span>(4)</span></td><td>El estudiante puede con precisión contestar la mayoría de las preguntas planteadas sobre el tema por sus compañeros de clase. <span>(3)</span></td><td>El estudiante puede con precisión contestar unas pocas preguntas planteadas sobre el tema por sus compañeros de clase. <span>(2)</span></td><td>El estudiante no puede contestar las preguntas planteadas sobre el tema por sus compañeros de clase. <span>(1)</span></td></tr><tr><th>Postura del cuerpo y contacto visual</th><td>A la hora de hablar la postura y el gesto son muy adecuados. Mira a todos los compañeros con total naturalidad. <span>(4)</span></td><td>La mayoría del tiempo la postura y el gesto son adecuados y casi siempre mira a   los compañeros mientras habla. <span>(3)</span></td><td>Algunas veces, mantiene la postura y  el gesto adecuados, y otras no. En ocasiones mira a sus compañeros. <span>(2)</span></td><td>No mantiene la postura y gesto propios de una exposición oral y, la mayoría de las veces, no mira a sus compañeros. <span>(1)</span></td></tr><tr><th>Contenido</th><td>Demuestra un completo entendimiento del tema que expone. <span>(4)</span></td><td>Demuestra un buen entendimiento del tema que expone. <span>(3)</span></td><td>Demuestra un buen entendimiento de partes del tema que expone. <span>(2)</span></td><td>No parece entender muy bien el tema que expone. <span>(1)</span></td></tr></tbody></table><p class="exe-rubric-authorship"><a href="http://cedec.intef.es/" target="_blank" class="author" rel="noopener">CEDEC</a>. <span class="title"><em>Rúbrica para evaluar la exposición oral</em></span> <span class="license">(<a href="http://creativecommons.org/licenses/" rel="license nofollow noopener" target="_blank" title="Creative Commons CC-BY-SA">CC BY-SA</a>)</span></p><ul class="exe-rubric-strings"><li class="activity">Actividad</li><li class="name">Nombre</li><li class="date">Fecha</li><li class="score">Puntuación</li><li class="notes">Notas</li><li class="reset">Reiniciar</li><li class="print">Imprimir</li><li class="apply">Aplicar</li><li class="newWindow">Ventana nueva</li></ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-nc-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Reconocimiento No comercial Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="6_aprendemos_ms_sobre_nuestra_placa_robtica.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><span class="page-counter">Página <strong>13</strong> de <strong>16</strong></span> <span class="sep">| </span><a href="7_presentamos_nuestro_trabajo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_escolares_js.js"></script></body></html>
